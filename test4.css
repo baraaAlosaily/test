@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(43, 121, 151);
+    border-radius: 5px;
+    overflow: auto;
+    margin: 0%;
+ 
+}
+
+a , h1 {
+    color:snow;
+    text-decoration: none; 
+    display: inline-block ;
+}
+nav{
+    float: right;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0;
+}
+
+li {
+    float: left;
+}
+
+h1{
+    padding: 0px 15px;
+    font-size: initial;
+}
+
+li a{
+    padding: 10px 17px;
+    font-size: initial;
+    
+}
+li a:hover {
+    background-color: yellowgreen;
+}
+
+img{
+    width: 500px;
+    border-radius: 50px;
+    display: inline-block
+}
+
