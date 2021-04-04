@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    margin:  15px ;
+    padding: 10;
 }
 
 header{
@@ -47,6 +49,55 @@ li a:hover {
 img{
     width: 500px;
     border-radius: 50px;
-    display: inline-block
+    display: flex;
+
 }
 
+/* #blog{ 
+
+    display: grid;
+    height: 500px;
+    grid-template-columns: 30px 30px 30px;
+
+} */
+
+#one{
+    float: left;
+    width: 200px;
+    padding: 20px;
+    background-color: lightgrey;
+ 
+}
+#two{
+    float: left;
+    width: 200px;
+    padding: 20px;
+    background-color: lightgrey;
+ 
+}
+#three{
+    float: left;
+    width: 200px;
+    padding: 20px;
+    background-color: lightgrey;
+    border-style:hidden;
+    left: 30px;
+ 
+}
+
+#four{
+    float: right;
+    width: 150px;
+    padding: 20px;
+    background-color: rgb(105, 105, 105);
+    border-style:hidden;
+    position: fixed;
+    top: 70px;
+    right: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    right: 50%;
+}

@@ -12,15 +12,12 @@
     <link rel="stylesheet" href="test4.css">
 
 </head>
-<script>
-    console.log("baraa");
-</script>
 
 <body>
     <header>
         <h1>My Website</h1>
-        <nav>
-            <ul>
+        <nav class=>
+            <ul class>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
@@ -28,17 +25,18 @@
         </nav>
     </header>
     <main>
-        <section id="Wecome">
-            <h1>Welcome to our Website</h1>
-            <figure>
+        <section id="Welcome">
+            <h2>Welcome to our Website</h2>
+            <div class="img">
                 <img src="https://www.birdlife.org/sites/default/files/styles/1600/public/blackpetrel_hg_karenbaird_3.jpg?itok=-tOCebgO"
                     alt="">
+
                 <figcaption>Beautiful Bird</figcaption>
-            </figure>
+            </div>
         </section>
-        <section id="blog">
+        <section class="blog">
             <h2>Our Blog</h2>
-            <article>
+            <article id="one">
                 <h3>Article 1</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iste recusandae labore voluptas cum
                     soluta veritatis. Animi eum repellendus ab sint cupiditate cumque, magnam similique. Cum quibusdam
@@ -46,7 +44,7 @@
                 </p>
                 <a href="">see more...</a>
             </article>
-            <article>
+            <article id="two">
                 <h3>Article 2</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iste recusandae labore voluptas cum
                     soluta veritatis. Animi eum repellendus ab sint cupiditate cumque, magnam similique. Cum quibusdam
@@ -54,7 +52,7 @@
                 </p>
                 <a href="">see more...</a>
             </article>
-            <article>
+            <article id="three">
                 <h3>Article 3</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iste recusandae labore voluptas cum
                     soluta veritatis. Animi eum repellendus ab sint cupiditate cumque, magnam similique. Cum quibusdam
@@ -65,8 +63,8 @@
 
         </section>
     </main>
-    <aside>
-        <h3>Navigation</h3>
+    <aside id="four">
+        <h3 id="five">Navigation</h3>
         <nav>
             <ul>
                 <li><a href="">Home</a></li>
@@ -74,7 +72,7 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
-        <h3>Contact</h3>
+        <h3 id="six">Contact</h3>
         <nav>
             <ul class="wb">
                 <li><i>&#128222</i> 0789875799</li>
@@ -84,7 +82,7 @@
             </ul>
         </nav>
 
-        <details>
+        <details id="seven">
             <summary>Summery</summary>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates dolorum aspernatur impedit
                 distinctio facilis commodi <mark> minima dolorem corrupti natus error placeat amet eveniet, minus
@@ -96,10 +94,11 @@
 
     </aside>
 
-    <footer>
+    <footer id="seven">
         <p> Copyright &COPY; My Website</p>
     </footer>
 
+    <script src="./test6.js"></script>
 </body>
 
 </html>
