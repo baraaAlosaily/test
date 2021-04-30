@@ -1,0 +1,92 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"raleway";
+}
+.upside{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align:left ;
+    margin: 0px;
+}
+nav ul li
+{
+list-style: none;
+display: inline-block;
+margin-left: 40px;
+
+
+}
+nav ul li a
+{
+text-decoration: none;
+font-size:20px;
+
+}
+.upside3{
+    flex: 1;
+    float:right;
+    background-color:rgb(212, 212, 212);
+    color: white;
+  
+    padding:8px 16px ;
+    margin-right: 0;
+    
+}
+.upside2{
+    background-color: tomato;
+    color: white;
+    padding: 8px 16px;
+    width: auto;
+    border: none;
+    display: inline-block;
+    outline: 0;
+    margin-left: 0px;
+    padding-right: 50px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 50px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.second3{
+    
+    background-color: tomato;
+    margin-left: 0px;
+    
+    color: white;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+.second2{
+    width: 670px;
+    box-sizing: border-box;  
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    background-color: white;
+}
+.second4{
+    padding-left: 5px;
+    margin: 20px;
+}
+.second{
+    position: relative;
+}
+.third2,.fifth{
+
+    margin-left: 20px;
+
+}
